@@ -18,7 +18,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <span className="font-bold text-gray-300">CoordLayer</span>
+            <span className="font-bold text-gray-500">CoordLayer</span>
           </div>
 
           <div className="hidden md:flex items-center gap-6 text-sm">

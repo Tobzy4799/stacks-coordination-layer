@@ -21,7 +21,7 @@ export default function Hero() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
-          <span className="text-xl font-bold text-gray-300">Coordination Layer</span>
+          <span className="text-xl font-bold text-gray-600">Coordination Layer</span>
         </div>
 
         {/* Headline */}
@@ -32,7 +32,7 @@ export default function Hero() {
         </h1>
 
         {/* Subheadline */}
-        <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
           A coordination layer where{" "}
           <span className="text-orange-400 font-medium">work itself is the proof</span> of credibility.
           Build reputation through verifiable on-chain activity — not self-declared portfolios.
@@ -49,16 +49,16 @@ export default function Hero() {
         {/* Stats */}
         <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-gray-400">12+</p>
-            <p className="text-sm text-gray-500 mt-1">Active Builders</p>
+            <p className="text-3xl md:text-4xl font-bold text-gray-600">12+</p>
+            <p className="text-sm text-gray-600 mt-1">Active Builders</p>
           </div>
           <div className="text-center border-x border-gray-800">
-            <p className="text-3xl md:text-4xl font-bold text-gray-400">$50K+</p>
-            <p className="text-sm text-gray-500 mt-1">Grants Coordinated</p>
+            <p className="text-3xl md:text-4xl font-bold text-gray-600">$50K+</p>
+            <p className="text-sm text-gray-600 mt-1">Grants Coordinated</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-gray-400">50+</p>
-            <p className="text-sm text-gray-500 mt-1">Verified Contributions</p>
+            <p className="text-3xl md:text-4xl font-bold text-gray-600">50+</p>
+            <p className="text-sm text-gray-600 mt-1">Verified Contributions</p>
           </div>
         </div>
       </div>

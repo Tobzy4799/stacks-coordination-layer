@@ -37,14 +37,14 @@ export default function Problem() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-orange-500 text-sm font-semibold tracking-wider uppercase">
+          <span className="text-orange-500 text-lg font-semibold tracking-wider uppercase">
             The Problem
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
             The Coordination Layer is{" "}
             <span className="text-gradient">Broken</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Web3 builders need contributors. Contributors need credibility. But the trust infrastructure
             connecting them is fragmented, informal, and inefficient.
           </p>
@@ -61,7 +61,7 @@ export default function Problem() {
                 {problem.icon}
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">{problem.title}</h3>
-              <p className="text-gray-400 leading-relaxed">{problem.description}</p>
+              <p className=" leading-relaxed">{problem.description}</p>
             </div>
           ))}
         </div>
@@ -78,7 +78,7 @@ export default function Problem() {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-white mb-2">The Core Insight</h3>
-              <p className="text-gray-300 text-lg">
+              <p className="text-gray-600 text-lg">
                 <span className="text-orange-400 font-semibold">Reputation should be a by-product of participation, not a prerequisite for it.</span>
                 {" "}We invert the current model: capture reputation signals from actions contributors are already taking, and convert them into portable trust records automatically.
               </p>

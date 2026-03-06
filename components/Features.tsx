@@ -66,13 +66,13 @@ export default function Features() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <span className="text-orange-500 text-sm font-semibold tracking-wider uppercase">
+          <span className="text-orange-500 text-lg font-semibold tracking-wider uppercase">
             Features
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
             Work Becomes the <span className="text-gradient">Proof</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-white text-lg max-w-2xl mx-auto">
             No portfolios to write. No self-promotion required. The artifact is the credential.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function Features() {
                   <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-orange-400 transition-colors">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-400 leading-relaxed">{feature.description}</p>
+                  <p className="text-gray-300 leading-relaxed">{feature.description}</p>
                 </div>
               </div>
             </div>
@@ -134,23 +134,23 @@ export default function Features() {
                 </div>
                 <h4 className="text-xl font-semibold text-white">Vouching</h4>
               </div>
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-100 mb-4">
                 An existing verified participant — from <span className="text-orange-400">any Web3 ecosystem</span> — vouches for you based on prior working experience.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Higher baseline trust score
                 </li>
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   <p>Voucher reputation is tethered to yours</p>
                 </li>
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -166,23 +166,23 @@ export default function Features() {
                 </div>
                 <h4 className="text-xl font-semibold text-white">Work-First</h4>
               </div>
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-100 mb-4">
                 Complete a small scoped task for a Stacks builder. The builder confirms delivery on-chain — that confirmation becomes your first trust signal.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   No prerequisites required
                 </li>
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Lower baseline score
                 </li>
-                <li className="flex items-center gap-2 text-gray-300 text-sm">
+                <li className="flex items-center gap-2 text-gray-100 text-sm">
                   <svg className="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>

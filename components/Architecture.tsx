@@ -4,13 +4,13 @@ export default function Architecture() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-orange-500 text-sm font-semibold tracking-wider uppercase">
+          <span className="text-orange-500 text-lg font-semibold tracking-wider uppercase">
             Technical Architecture
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
             Built on <span className="text-gradient">Stacks</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Leveraging Bitcoin-backed settlement and Clarity smart contracts for trust records with genuine permanence.
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function Architecture() {
             <div className="space-y-4">
               <div className="bg-gradient-to-b from-orange-500/20 to-orange-600/10 rounded-xl p-4 border border-orange-500/30">
                 <div className="text-orange-400 font-bold text-lg mb-2">Bitcoin</div>
-                <div className="text-xs text-gray-400">Settlement Layer</div>
+                <div className="text-xs text-gray-100">Settlement Layer</div>
               </div>
               <div className="text-2xl">↑</div>
             </div>
@@ -31,7 +31,7 @@ export default function Architecture() {
             <div className="space-y-4">
               <div className="bg-gradient-to-b from-orange-400/20 to-orange-500/10 rounded-xl p-4 border border-orange-400/30">
                 <div className="text-orange-300 font-bold text-lg mb-2">Stacks</div>
-                <div className="text-xs text-gray-400">Smart Contracts</div>
+                <div className="text-xs text-gray-100">Smart Contracts</div>
               </div>
               <div className="text-2xl">↑</div>
             </div>
@@ -40,7 +40,7 @@ export default function Architecture() {
             <div className="space-y-4">
               <div className="bg-gradient-to-b from-orange-300/20 to-orange-400/10 rounded-xl p-4 border border-orange-300/30">
                 <div className="text-orange-200 font-bold text-lg mb-2">Indexer</div>
-                <div className="text-xs text-gray-400">Event Processing</div>
+                <div className="text-xs text-gray-100">Event Processing</div>
               </div>
               <div className="text-2xl">↑</div>
             </div>
@@ -49,7 +49,7 @@ export default function Architecture() {
             <div className="space-y-4">
               <div className="bg-gradient-to-b from-white/10 to-gray-200/5 rounded-xl p-4 border border-gray-500/30">
                 <div className="text-white font-bold text-lg mb-2">Frontend</div>
-                <div className="text-xs text-gray-400">User Interface</div>
+                <div className="text-xs text-gray-100">User Interface</div>
               </div>
             </div>
           </div>
@@ -57,13 +57,13 @@ export default function Architecture() {
           {/* Data Flow Labels */}
           <div className="mt-8 flex justify-center">
             <div className="bg-gray-800/50 rounded-lg px-6 py-3 inline-flex items-center gap-6 text-sm">
-              <span className="text-gray-400">Grants</span>
-              <span className="text-gray-600">|</span>
-              <span className="text-gray-400">Contracts</span>
-              <span className="text-gray-600">|</span>
-              <span className="text-gray-400">Payments</span>
-              <span className="text-gray-600">|</span>
-              <span className="text-gray-400">Attestations</span>
+              <span className="text-gray-100">Grants</span>
+              <span className="text-gray-100">|</span>
+              <span className="text-gray-100">Contracts</span>
+              <span className="text-gray-100">|</span>
+              <span className="text-gray-100">Payments</span>
+              <span className="text-gray-100">|</span>
+              <span className="text-gray-100">Attestations</span>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Architecture() {
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-gray-900/50 rounded-xl p-6 border border-gray-800">
             <div className="text-orange-400 font-semibold mb-3">Frontend</div>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-100 text-sm">
               <li>• Next.js 14 (App Router)</li>
               <li>• TypeScript</li>
               <li>• Tailwind CSS</li>
@@ -82,7 +82,7 @@ export default function Architecture() {
 
           <div className="bg-gray-900/50 rounded-xl p-6 border border-gray-800">
             <div className="text-orange-400 font-semibold mb-3">Backend</div>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-100 text-sm">
               <li>• Node.js / Express</li>
               <li>• PostgreSQL / TimescaleDB</li>
               <li>• Stacks Event Indexer</li>
@@ -92,7 +92,7 @@ export default function Architecture() {
 
           <div className="bg-gray-900/50 rounded-xl p-6 border border-gray-800">
             <div className="text-orange-400 font-semibold mb-3">Smart Contracts</div>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-100 text-sm">
               <li>• Clarity Language</li>
               <li>• Attestation Registry</li>
               <li>• Reputation NFTs</li>
@@ -109,7 +109,7 @@ export default function Architecture() {
             </div>
             <div>
               <h4 className="font-semibold text-white mb-1">Bitcoin-Backed Settlement</h4>
-              <p className="text-gray-400 text-sm">Trust records anchored to Bitcoin finality for genuine permanence.</p>
+              <p className="text-gray-600 text-sm">Trust records anchored to Bitcoin finality for genuine permanence.</p>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export default function Architecture() {
             </div>
             <div>
               <h4 className="font-semibold text-white mb-1">Clarity Execution</h4>
-              <p className="text-gray-400 text-sm">Deterministic, predictable smart contracts make on-chain verification cleaner.</p>
+              <p className="text-gray-600 text-sm">Deterministic, predictable smart contracts make on-chain verification cleaner.</p>
             </div>
           </div>
 
@@ -129,7 +129,7 @@ export default function Architecture() {
             </div>
             <div>
               <h4 className="font-semibold text-white mb-1">Foundation Trust Anchor</h4>
-              <p className="text-gray-400 text-sm">Stacks Foundation engagement signals already serve as credibility markers.</p>
+              <p className="text-gray-600 text-sm">Stacks Foundation engagement signals already serve as credibility markers.</p>
             </div>
           </div>
         </div>

@@ -55,13 +55,13 @@ export default function Roadmap() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-orange-500 text-sm font-semibold tracking-wider uppercase">
+          <span className="text-orange-500 text-lg font-semibold tracking-wider uppercase">
             Roadmap
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
             Building <span className="text-gradient">Step by Step</span>
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             A realistic rollout plan starting with the MVP, scaling to a full coordination layer.
           </p>
         </div>
@@ -99,10 +99,10 @@ export default function Roadmap() {
                       )}
                     </div>
                     <h3 className="text-xl font-bold text-white mb-1">{phase.title}</h3>
-                    <p className="text-gray-500 text-sm mb-4">{phase.period}</p>
+                    <p className="text-gray-800 text-sm mb-4">{phase.period}</p>
                     <ul className={`space-y-2 ${index % 2 === 0 ? "md:text-right" : ""}`}>
                       {phase.items.map((item, i) => (
-                        <li key={i} className="text-gray-400 text-sm flex items-center gap-2">
+                        <li key={i} className="text-gray-100 text-sm flex items-center gap-2">
                           <svg
                             className={`w-4 h-4 text-orange-400 flex-shrink-0 ${
                               index % 2 === 0 ? "md:order-2" : ""
