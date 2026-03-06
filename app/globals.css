@@ -1,26 +1,62 @@
-@import "tailwindcss";
+/* src/app/globals.css ----------------------------------------------------
+   Tailwind v3 global stylesheet
+   --------------------------------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------------------------------
+   Your custom global CSS (optional)
+   ------------------------------------------------- */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 10, 20;
+  --background-end-rgb: 20, 20, 40;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Example – smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Example – focus outline for accessibility */
+:focus-visible {
+  outline: 2px solid theme('colors.orange.500');
+  outline-offset: 2px;
+}
+
+/* Example – reusable gradient background class */
+.bg-gradient {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(10, 10, 20, 1),
+    rgba(20, 20, 40, 1)
+  );
+}
+
+/* -------------------------------------------------
+   Tailwind “layer” utilities (optional but nice)
+   ------------------------------------------------- */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #f7931a 0%, #ff6b35 50%, #f7931a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .card-glow {
+    box-shadow: 0 0 40px rgba(247, 147, 26, 0.1);
+    border: 1px solid rgba(247, 147, 26, 0.2);
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply border border-orange-500 text-orange-400 hover:bg-orange-500/10 font-semibold py-3 px-8 rounded-lg transition-all duration-300;
+  }
 }
